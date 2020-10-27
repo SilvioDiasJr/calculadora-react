@@ -15,7 +15,24 @@
   transition: 0.3s;
 }
 
-.button:hover {
+.button:active {
   background-color: var(--bg-secondary-Button);
   color: #fff;
+}
+
+.button.double {
+  grid-column: span 2;
+}
+
+.button.triple {
+  grid-column: span 3;
+}
+
+.button.operation {
+  background-color: #972f2f;
+  color: #fff;
+}
+
+.button.operation:active {
+  background-color: rgb(59, 58, 58);
 }
